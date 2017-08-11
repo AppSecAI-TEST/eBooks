@@ -21,8 +21,8 @@ public class ClassLoaderPropTest {
 		// 获取系统类加载器的父类加载器，得到扩展类加载器
 		ClassLoader extensionLoader = systemLoader.getParent();
 		System.out.println("扩展类加载器： " + extensionLoader);
-		System.out.println("扩展类加载器的加载路径： "+ 
-				System.getProperty("java.ext.dirs"));
+		System.out.println("扩展类加载器的加载路径： " 
+		        + System.getProperty("java.ext.dirs"));
 		System.out.println("扩展类加载器的parent： " + extensionLoader.getParent());
 	}
 

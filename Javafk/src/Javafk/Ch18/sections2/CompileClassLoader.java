@@ -16,8 +16,8 @@ public class CompileClassLoader extends ClassLoader {
 			// 一次读取class文件的全部位进制数据
 			int r = fin.read(raw);
 			if (r != len)
-				throw new IOException("无法读取全部文件："
-						+ r +" != " + len);
+				throw new IOException("无法读取全部文件：" 
+			            + r +" != " + len);
 			return raw;		
 		}
 	}

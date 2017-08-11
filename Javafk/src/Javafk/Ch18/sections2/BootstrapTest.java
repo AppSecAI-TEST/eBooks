@@ -2,6 +2,7 @@ package Javafk.Ch18.sections2;
 
 import java.net.URL;
 
+// Build Path-Libraries-rules新增Access ** 就不会报错了
 public class BootstrapTest {
 	public static void main(String[] args) {
 		// 获取根类加载器所加载的全部URL数组
