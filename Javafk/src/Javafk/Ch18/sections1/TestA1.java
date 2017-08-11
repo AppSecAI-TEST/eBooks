@@ -1,6 +1,7 @@
 package Javafk.Ch18.sections1;
 
 public class TestA1 {
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		// 创建A类的实例
 		A a = new A();
@@ -8,5 +9,5 @@ public class TestA1 {
 		a.a++;
 		System.out.println(a.a);
 	}
-
+	
 }

@@ -2,8 +2,7 @@ package Javafk.Ch18.sections1;
 
 public class ClassLoaderTest {
 	public static void main(String[] args) 
-			throws ClassNotFoundException 
-	{
+			throws ClassNotFoundException {
 		String calssName = "eBookJava.fkJava.chapter18.section1.Tester";
 		ClassLoader cl = ClassLoader.getSystemClassLoader();
 		// 下面的语句仅仅是加载Tester类
@@ -12,7 +11,7 @@ public class ClassLoaderTest {
 		// 下面的语句才会初始化Tester类
 		Class.forName(calssName);
 	}
-
+	
 }
 
 class Tester {
