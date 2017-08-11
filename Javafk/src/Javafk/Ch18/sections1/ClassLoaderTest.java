@@ -3,7 +3,7 @@ package Javafk.Ch18.sections1;
 public class ClassLoaderTest {
 	public static void main(String[] args) 
 			throws ClassNotFoundException {
-		String calssName = "eBookJava.fkJava.chapter18.section1.Tester";
+		String calssName = "Javafk.Ch18.sections1.Tester";
 		ClassLoader cl = ClassLoader.getSystemClassLoader();
 		// 下面的语句仅仅是加载Tester类
 		cl.loadClass(calssName);
